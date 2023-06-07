@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDE7F8">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <!-- Question 1 -->
+            <TextView
+                android:text="Question 1:No one I know would throw a birthday party for me..?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"/>
+
+
+
+            <Button
+                android:id="@+id/option1_1"
+                android:text="definitely true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="3"/>
+
+            <Button
+                android:id="@+id/option1_2"
+                android:text="definitely false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="0"/>
+
+            <Button
+                android:id="@+id/option1_3"
+                android:text="probably true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="2"/>
+
+            <Button
+                android:id="@+id/option1_4"
+                android:text="probably false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="1"/>
+
+            <TextView
+                android:text="Question 2:If I wanted to have lunch with someone, I could easily find someone to join me?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"/>
+
+
+
+            <Button
+                android:id="@+id/option2_1"
+                android:text="definitely true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="3"/>
+
+            <Button
+                android:id="@+id/option2_2"
+                android:text="definitely false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="0"/>
+
+            <Button
+                android:id="@+id/option2_3"
+                android:text="probably true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="2"/>
+
+            <Button
+                android:id="@+id/option2_4"
+                android:text="probably false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="1"/>
+
+            <TextView
+                android:text="Question 3:I don’t often get invited to do things with others..?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"/>
+
+
+
+            <Button
+                android:id="@+id/option3_1"
+                android:text="definitely true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="3"/>
+
+            <Button
+                android:id="@+id/option3_2"
+                android:text="definitely false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="0"/>
+
+            <Button
+                android:id="@+id/option3_3"
+                android:text="probably true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="2"/>
+
+            <Button
+                android:id="@+id/option3_4"
+                android:text="probably false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="1"/>
+
+            <TextView
+                android:text="Question 4: Most people I know do not enjoy the same things that I do..?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"/>
+
+
+
+            <Button
+                android:id="@+id/option4_1"
+                android:text="definitely true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="3"/>
+
+            <Button
+                android:id="@+id/option4_2"
+                android:text="definitely false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="0"/>
+
+            <Button
+                android:id="@+id/option4_3"
+                android:text="probably true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="2"/>
+
+            <Button
+                android:id="@+id/option4_4"
+                android:text="probably false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="1"/>
+
+
+            <TextView
+                android:text="Question 5:If I decide one afternoon that I would like to go to a movie that evening, I could easily find
+someone to go with me..?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"/>
+
+
+
+            <Button
+                android:id="@+id/option5_1"
+                android:text="definitely true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="3"/>
+
+            <Button
+                android:id="@+id/option5_2"
+                android:text="definitely false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="0"/>
+
+            <Button
+                android:id="@+id/option5_3"
+                android:text="probably true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="2"/>
+
+            <Button
+                android:id="@+id/option5_4"
+                android:text="probably false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="1"/>
+
+            <TextView
+                android:text="Question 6:If I wanted to go on a trip for a day (e.g., to the mountains, beach, or country), I would have
+a hard time finding someone to go with me.?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"/>
+
+
+
+            <Button
+                android:id="@+id/option6_1"
+                android:text="definitely true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="3"/>
+
+            <Button
+                android:id="@+id/option6_2"
+                android:text="definitely false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="0"/>
+
+            <Button
+                android:id="@+id/option6_3"
+                android:text="probably true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="2"/>
+
+            <Button
+                android:id="@+id/option6_4"
+                android:text="probably false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="1"/>
+
+            <TextView
+                android:text="Question 7:There are several different people I enjoy spending time with?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"/>
+
+
+
+            <Button
+                android:id="@+id/option7_1"
+                android:text="definitely true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="3"/>
+
+            <Button
+                android:id="@+id/option7_2"
+                android:text="definitely false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="0"/>
+
+            <Button
+                android:id="@+id/option7_3"
+                android:text="probably true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="2"/>
+
+            <Button
+                android:id="@+id/option7_4"
+                android:text="probably false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="1"/>
+
+
+            <TextView
+                android:text="Question 8: I feel like I’m not always included by my circle of friends.?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"/>
+
+
+
+            <Button
+                android:id="@+id/option8_1"
+                android:text="definitely true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="3"/>
+
+            <Button
+                android:id="@+id/option8_2"
+                android:text="definitely false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="0"/>
+
+            <Button
+                android:id="@+id/option8_3"
+                android:text="probably true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="2"/>
+
+            <Button
+                android:id="@+id/option8_4"
+                android:text="probably false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="1"/>
+
+            <TextView
+                android:text="Question 9:I often meet or talk with family or friends.?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"/>
+
+
+
+            <Button
+                android:id="@+id/option9_1"
+                android:text="definitely true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="3"/>
+
+            <Button
+                android:id="@+id/option9_2"
+                android:text="definitely false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="0"/>
+
+            <Button
+                android:id="@+id/option9_3"
+                android:text="probably true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="2"/>
+
+            <Button
+                android:id="@+id/option9_4"
+                android:text="probably false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="1"/>
+
+            <TextView
+                android:text="Question 10: When I feel lonely, there are several people I can talk to..?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"/>
+
+
+
+            <Button
+                android:id="@+id/option10_1"
+                android:text="definitely true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="3"/>
+
+            <Button
+                android:id="@+id/option10_2"
+                android:text="definitely false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="0"/>
+
+            <Button
+                android:id="@+id/option10_3"
+                android:text="probably true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="2"/>
+
+            <Button
+                android:id="@+id/option10_4"
+                android:text="probably false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="1"/>
+
+
+
+
+
+
+
+
+            <!-- Add more questions and answer options here -->
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

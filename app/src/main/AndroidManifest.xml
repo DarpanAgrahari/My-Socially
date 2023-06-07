@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/logo"
+        android:label="My Socially"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Frontend"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ac1" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegistrationActivity"/>
+        <activity android:name=".FinalActivity"/>
+        <activity android:name=".activity1"/>
+        <activity android:name=".activity2"/>
+        <activity android:name=".activity3"/>
+        <activity android:name=".activity4"/>
+        <activity android:name=".userDetail"/>
+        <activity android:name=".setting"/>
+        <activity android:name=".help"/>
+        <activity android:name=".aboutus"/>
+        <activity android:name=".terms"/>
+        <activity android:name=".contactus"/>
+        <activity android:name=".QuestionActivity" />
+        <activity android:name=".QuestionActivity1" />
+        <activity android:name=".Result" />
+        <activity android:name=".HomeFragment"/>
+        <activity android:name=".AddQuestion"/>
+        <activity android:name=".Set"/>
+
+
+
+
+
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

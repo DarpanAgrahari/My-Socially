@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDE7F8">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <!-- Question 1 -->
+            <TextView
+                android:text="Question 1:If I needed some help in moving to a new house or apartment, I would have a hard timefinding someone to help me.?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"/>
+
+
+
+            <Button
+                android:id="@+id/option1_1"
+                android:text="definitely true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="3"/>
+
+            <Button
+                android:id="@+id/option1_2"
+                android:text="definitely false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="0"/>
+
+            <Button
+                android:id="@+id/option1_3"
+                android:text="probably true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="2"/>
+
+            <Button
+                android:id="@+id/option1_4"
+                android:text="probably false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="1"/>
+
+            <TextView
+                android:text="Question 2:It would me difficult to find someone who would lend me their car for a few hours.?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"/>
+
+
+
+            <Button
+                android:id="@+id/option2_1"
+                android:text="definitely true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="3"/>
+
+            <Button
+                android:id="@+id/option2_2"
+                android:text="definitely false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="0"/>
+
+            <Button
+                android:id="@+id/option2_3"
+                android:text="probably true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="2"/>
+            <Button
+                android:id="@+id/option2_4"
+                android:text="probably false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="1"/>
+
+            <TextView
+                android:text="Question 3:If I was stranded 10 miles from home, there is someone I could call who would come andget me.?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"/>
+
+
+
+            <Button
+                android:id="@+id/option3_1"
+                android:text="definitely true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="3"/>
+
+            <Button
+                android:id="@+id/option3_2"
+                android:text="definitely false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="0"/>
+
+            <Button
+                android:id="@+id/option3_3"
+                android:text="probably true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="2"/>
+
+            <Button
+                android:id="@+id/option3_4"
+                android:text="probably false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="1"/>
+
+            <TextView
+                android:text="Question 4:If I had to go out of town for a few weeks, it would be difficult to find someone who would
+look after my house or apartment (the plants, pets, garden, etc.?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"/>
+
+
+
+            <Button
+                android:id="@+id/option4_1"
+                android:text="definitely true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="3"/>
+
+            <Button
+                android:id="@+id/option4_2"
+                android:text="definitely false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="0"/>
+
+            <Button
+                android:id="@+id/option4_3"
+                android:text="probably true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="2"/>
+
+            <Button
+                android:id="@+id/option4_4"
+                android:text="probably false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="1"/>
+
+
+            <TextView
+                android:text="Question 5:If I needed an emergency loan of $100, there is someone (friend, relative, or acquaintance) I
+could get it from .?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"/>
+
+
+
+            <Button
+                android:id="@+id/option5_1"
+                android:text="definitely true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="3"/>
+
+            <Button
+                android:id="@+id/option5_2"
+                android:text="definitely false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="0"/>
+
+            <Button
+                android:id="@+id/option5_3"
+                android:text="probably true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="2"/>
+
+            <Button
+                android:id="@+id/option5_4"
+                android:text="probably false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="1"/>
+
+            <TextView
+                android:text="Question 6:If I were sick, I could easily find someone to help me with my daily chores.?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"/>
+
+
+
+            <Button
+                android:id="@+id/option6_1"
+                android:text="definitely true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="3" />
+
+            <Button
+                android:id="@+id/option6_2"
+                android:text="definitely false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="0"/>
+
+            <Button
+                android:id="@+id/option6_3"
+                android:text="probably true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="2"/>
+
+            <Button
+                android:id="@+id/option6_4"
+                android:text="probably false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="1"/>
+
+            <TextView
+                android:text="Question 7: If I needed a place to stay for a week because of an emergency (for example, water or
+electricity out in my apartment or house), I could easily find someone who would put me up ?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"/>
+
+
+
+            <Button
+                android:id="@+id/option7_1"
+                android:text="definitely true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="3"/>
+
+            <Button
+                android:id="@+id/option7_2"
+                android:text="definitely false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="0"/>
+
+            <Button
+                android:id="@+id/option7_3"
+                android:text="probably true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="2"/>
+
+            <Button
+                android:id="@+id/option7_4"
+                android:text="probably false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="1"/>
+
+
+            <TextView
+                android:text="Question 8:If I were sick and needed someone (friend, family member, or acquaintance) to take me to
+the doctor, I would have trouble finding someone.?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"/>
+
+
+
+            <Button
+                android:id="@+id/option8_1"
+                android:text="definitely true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="3"/>
+
+            <Button
+                android:id="@+id/option8_2"
+                android:text="definitely false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="0"/>
+
+            <Button
+                android:id="@+id/option8_3"
+                android:text="probably true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="2"/>
+
+            <Button
+                android:id="@+id/option8_4"
+                android:text="probably false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="1"/>
+
+            <TextView
+                android:text="Question 9: If I needed a ride to the airport very early in the morning, I would have a hard time finding
+someone to take me..?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"/>
+
+
+
+            <Button
+                android:id="@+id/option9_1"
+                android:text="definitely true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="3"/>
+
+            <Button
+                android:id="@+id/option9_2"
+                android:text="definitely false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="0"/>
+
+            <Button
+                android:id="@+id/option9_3"
+                android:text="probably true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="2"/>
+
+            <Button
+                android:id="@+id/option9_4"
+                android:text="probably false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="1"/>
+
+            <TextView
+                android:text="Question 10:If I needed help fixing an appliance or repairing my car, there is someone who would help me.?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"/>
+
+
+
+            <Button
+                android:id="@+id/option10_1"
+                android:text="definitely true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="3"/>
+
+            <Button
+                android:id="@+id/option10_2"
+                android:text="definitely false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="0"/>
+
+            <Button
+                android:id="@+id/option10_3"
+                android:text="probably true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="2"/>
+
+            <Button
+                android:id="@+id/option10_4"
+                android:text="probably false"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:tag="1"/>
+
+
+
+
+
+
+
+
+            <!-- Add more questions and answer options here -->
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

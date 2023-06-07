@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Result">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#AFA124"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="20dp"
+
+            android:background="@drawable/white_background"
+            android:fontFamily="@font/acme"
+            android:gravity="center"
+            android:padding="16sp"
+            android:text="You Have Completed The Quiz Sucessfully."
+            android:textColor="#70230B"
+            android:textSize="25sp"
+            android:textStyle="italic" />
+
+        <ProgressBar
+            android:id="@+id/ResultProgressBar"
+            android:layout_width="215dp"
+            android:layout_height="213dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="10dp"
+            android:indeterminateOnly="false"
+            android:progressDrawable="@drawable/circle_prog_bar"
+            android:rotation="-90"
+            tools:progress="50" />
+
+        <TextView
+            android:id="@+id/TextProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="50%"
+            android:textColor="#AE0606"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/rounded_border"
+            android:backgroundTint="#653A3A"
+            android:padding="10dp"
+            android:text="Re-Attempt"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#073509"
+            android:drawableLeft="@drawable/replay"
+            android:drawablePadding="10dp"/>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/rounded_border"
+            android:backgroundTint="#653A3A"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#F44336"
+            android:text="Home"
+            android:drawableLeft="@drawable/home"
+            android:drawablePadding="10dp"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

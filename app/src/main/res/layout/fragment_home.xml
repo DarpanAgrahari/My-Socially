@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:alpha="0.9"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/back" />
+
+            <ImageView
+                android:id="@+id/imageView211"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_marginTop="350dp"
+                android:scaleType="fitXY"
+                android:alpha="0.5"
+                app:srcCompat="@drawable/background_signup" />
+
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginTop="100dp"
+                android:scaleType="fitXY"
+                android:elevation="10dp"
+                app:srcCompat="@drawable/bottom_banner" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="120dp"
+                android:text="Your Social Health"
+                android:layout_centerHorizontal="true"
+                android:textColor="#1b1811"
+                android:textSize="35sp"
+                android:elevation="13dp"
+                android:textStyle="bold" />
+
+
+
+
+            <ProgressBar
+                android:id="@+id/simpleProgressBar"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="205dp"
+                android:max="100"
+                android:padding="20dp"
+                android:progress="100"
+                android:elevation="13dp"
+                android:progressDrawable="@drawable/thumb" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="32dp"
+                android:text="Hello,  Aman...!"
+                android:textSize="40sp"
+                android:textStyle="bold|italic"
+                android:textColor="#f5f5f5"/>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="300dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/homeback">
+
+
+                \
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:padding="8dp"
+                    android:text="Your Activities "
+                    android:textColor="#000000"
+                    android:textSize="45sp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textView3"
+                    android:layout_marginTop="34dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_toLeftOf="@id/progressBar31"
+                    android:textSize="24sp"
+                    android:padding="8dp"
+                    android:text="Appraisal Support Subscale"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textView3"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="0dp"
+                    android:indeterminateOnly="false"
+                    android:padding="6dp"
+                    android:progressDrawable="@drawable/circle_prog_bar"
+                    android:rotation="-90"
+                    tools:progress="50" />
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textView31"
+                    android:layout_alignStart="@id/textView31"
+                    android:layout_toLeftOf="@id/progressBar31"
+                    android:layout_marginTop="5dp"
+                    android:padding="8dp"
+                    android:text="Tangible Support Subscale"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textView31"
+                    android:layout_alignStart="@id/progressBar31"
+                    android:layout_marginTop="0dp"
+                    android:layout_toRightOf="@id/textView32"
+                    android:indeterminateOnly="false"
+                    android:padding="5dp"
+                    android:progressDrawable="@drawable/circle_prog_bar"
+                    android:rotation="-90"
+                    tools:progress="50" />
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textView32"
+                    android:layout_marginTop="5dp"
+                    android:padding="7dp"
+                    android:text="Self-Esteem Subscale"
+                    android:layout_alignStart="@id/textView31"
+                    android:layout_toLeftOf="@id/progressBar31"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textView32"
+                    android:layout_alignStart="@id/progressBar31"
+                    android:layout_toRightOf="@id/textView33"
+                    android:indeterminateOnly="false"
+                    android:padding="5dp"
+                    android:progressDrawable="@drawable/circle_prog_bar"
+                    android:rotation="-90"
+                    tools:progress="50" />
+
+                <TextView
+                    android:id="@+id/textView34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textView33"
+                    android:layout_marginTop="5dp"
+                    android:padding="7dp"
+                    android:text="Belonging Support Subscale"
+                    android:layout_alignStart="@id/textView31"
+                    android:layout_toLeftOf="@id/progressBar31"
+                    android:textColor="@color/black"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textView33"
+                    android:layout_alignStart="@id/progressBar31"
+                    android:layout_toRightOf="@id/textView34"
+                    android:indeterminateOnly="false"
+                    android:padding="5dp"
+                    android:progressDrawable="@drawable/circle_prog_bar"
+                    android:rotation="-90"
+                    tools:progress="50" />
+
+                <TextView
+                    android:id="@+id/textView35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textView34"
+                    android:layout_marginTop="5dp"
+                    android:padding="5dp"
+                    android:text="Social Support Questionnaire"
+                    android:textColor="@color/black"
+                    android:layout_alignStart="@id/textView31"
+                    android:layout_toLeftOf="@id/progressBar31"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/textView34"
+                    android:layout_alignStart="@id/progressBar31"
+                    android:layout_toRightOf="@id/textView35"
+                    android:indeterminateOnly="false"
+                    android:padding="5dp"
+                    android:progressDrawable="@drawable/circle_prog_bar"
+                    android:rotation="-90"
+                    tools:progress="50" />
+
+
+            </RelativeLayout>
+
+            <!--<androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/orange_background"
+                android:elevation="3dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                >
+
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Let's Get Started"
+                    android:background="@drawable/orange_background"
+                    android:textColor="#ffffff"
+                    android:textSize="21sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.506"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.545"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>-->
+        </FrameLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
